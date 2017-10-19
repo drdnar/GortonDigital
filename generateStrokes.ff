@@ -1,11 +1,11 @@
 #!/usr/local/bin/fontforge
 Open($1)
 
-strokeWidths = [210, 280, 420]
+strokeWidths = [210, 280, 315, 420]
 mainFontName = "GortonDigital"
 familyName = "Gorton Digital"
-strokeNames = ["Light", "Regular", "Heavy"]
-weightNames = [300, 400, 700]
+strokeNames = ["Light", "Regular", "Medium", "Heavy"]
+weightNames = [300, 400, 500, 700]
 
 strokeIndex = 0
 while (strokeIndex < SizeOf(strokeWidths))
