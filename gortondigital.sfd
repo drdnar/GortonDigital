@@ -5,7 +5,7 @@ FamilyName: Gorton Digital
 Weight: Regular
 Copyright: This digital file is copyright 2017 R. S. Bartgis.
 UComments: "2017-9-26: Created with FontForge (http://fontforge.org)"
-Version: 2017 10 18
+Version: 2017 10 19
 StrokeWidth: 210
 ItalicAngle: -15
 UnderlinePosition: -420
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1506406980
-ModificationTime: 1508449564
+ModificationTime: 1508451156
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 13
+WinInfo: 0 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 681878 599186 299593 199728 0 -412297 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2589,7 +2589,7 @@ StartChar: f
 Encoding: 102 102 106
 Width: 1049
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
