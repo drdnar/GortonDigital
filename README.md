@@ -14,7 +14,29 @@ and in an inclined style.  Currently, I only have the normal width available.
 
 ## Creating the Output Fonts from the Template
 
-Run the generateStrokes.ff script through FontForge, e.g. fontforge generateStrokes.ff gortondigital.sdf
+Gorton was used for engraving, so, naturally, it features strokes of a constant
+width for easier machining.  Different weights could be provided by simply
+using a different size cutter.  Naturally, therefore, instead of trying to trace
+each different weight, I have produced template splines matching the original
+curves.  The template is then stroked to produce a font of the desired weight.
+
+FontForge, helpfully, provides an expand stroke function which works fairly
+well.  It's not perfect, but careful design of the template splines can work
+around most issues.
+
+I use a script to automatically stroke the glyphs and generate output font
+files.  It uses the following widths for strokes:
+* height/12 for light
+* height/9 for normal
+* height/8 for medium
+* height/6 for bold/heavy
+
+To use the stroking script, run the generateStrokes.ff script through FontForge,
+e.g.: ```fontforge generateStrokes.ff gortondigital.sdf``` If you want to
+execute the script using the File > Execute Script dialog, remove the top two
+lines of the script, as you don't need to open an already open font file.
+You'll also need to alter the ```Generate(``` call to give the right file name.
+
 
 ## Digitization Process
 Because the Gorton font family was created by machinists, it seems reasonable to
