@@ -10,7 +10,8 @@ weightNames = [300, 400, 500, 700]
 strokeIndex = 0
 while (strokeIndex < SizeOf(strokeWidths))
 	strokeWidth = strokeWidths[strokeIndex]
-	SetFontNames(mainFontName, familyName, familyName + " " + strokeNames[strokeIndex], strokeNames[strokeIndex])
+	strokeName = strokeNames[strokeIndex]
+	SetFontNames(mainFontName + strokeName, familyName, familyName + " " + strokeName, strokeName)
 	SetOS2Value("Weight", weightNames[strokeIndex])
 #strokeWidth = 420
 	SelectWorthOutputting()
@@ -26,7 +27,7 @@ while (strokeIndex < SizeOf(strokeWidths))
 	RoundToInt()
 	AutoHint()
 	AddExtrema()
-	Generate($1:r + strokeNames[strokeIndex] + ".otf")
+	Generate($1:r + strokeName + ".otf")
 	Revert()
 	strokeIndex = strokeIndex + 1
 endloop
