@@ -1,0 +1,31 @@
+#!/usr/local/bin/fontforge
+Open($1)
+
+strokeWidths = [210, 280, 420]
+mainFontName = "GortonDigital"
+familyName = "Gorton Digital"
+strokeNames = ["Light", "Regular", "Heavy"]
+weightNames = [300, 400, 700]
+
+strokeIndex = 0
+while (strokeIndex < SizeOf(strokeWidths))
+	strokeWidth = strokeWidths[strokeIndex]
+	SetFontNames(mainFontName, familyName, familyName + " " + strokeNames[strokeIndex], strokeNames[strokeIndex])
+	SetOS2Value("Weight", weightNames[strokeIndex])
+#strokeWidth = 420
+	SelectWorthOutputting()
+	SelectFewer(" ")
+	UnlinkReference()
+	ClearHints()
+	SetLBearing(strokeWidth/2, 1)
+	SetRBearing(strokeWidth * 3 / 2, 1)
+	Move(Int(strokeWidth/2), 0)
+	ExpandStroke(strokeWidth, 1, 1)
+	RemoveOverlap()
+	RoundToInt()
+	AutoHint()
+	AddExtrema()
+	Generate($1:r + strokeNames[strokeIndex] + ".otf")
+	Revert()
+	strokeIndex = strokeIndex + 1
+endloop
