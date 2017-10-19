@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1506406980
-ModificationTime: 1508436322
+ModificationTime: 1508447973
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 13
+WinInfo: 48 16 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 681878 599186 299593 199728 0 -412297 199728 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1094,26 +1094,25 @@ EndChar
 
 StartChar: exclam
 Encoding: 33 33 46
-Width: 210
+Width: 140
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-175 2450 m 1
- 175 1680 l 1
- 105 840 l 1
- 35 1680 l 1
- 35 2450 l 1
- 35 2489 66 2520 105 2520 c 1
- 144 2520 175 2489 175 2450 c 1
-105 315 m 0
- 163 315 210 268 210 210 c 0
- 210 152 163 105 105 105 c 0
- 47 105 0 152 0 210 c 0
- 0 268 47 315 105 315 c 0
+140 2450 m 1
+ 140 1680 l 1
+ 70 840 l 1
+ 0 1680 l 1
+ 0 2450 l 1
+ 0 2489 31 2520 70 2520 c 1
+ 109 2520 140 2489 140 2450 c 1
+70 315 m 0
+ 128 315 175 268 175 210 c 0
+ 175 152 128 105 70 105 c 0
+ 12 105 -35 152 -35 210 c 0
+ -35 268 12 315 70 315 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -1139,7 +1138,6 @@ SplineSet
  140 2380 l 1
  70 2100 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -1158,7 +1156,6 @@ SplineSet
  140 2380 l 5
  70 2100 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plus
@@ -1176,7 +1173,6 @@ SplineSet
  601 1338 l 1
  1200 1338 l 1033
 EndSplineSet
-Validated: 3
 EndChar
 
 StartChar: multiply
@@ -2107,7 +2103,7 @@ SplineSet
  0 615 232.222252113 738.354286469 522 816 c 0
  705.525906995 865.175618569 945 866 945 866 c 1
  945 280 l 1
- 945 28 1055 -24 1115 -24 c 3
+ 945 28 1055 -24 1115 -24 c 7
  1182 -24 1260 -12 1260 -12 c 1025
 EndSplineSet
 EndChar
@@ -2698,7 +2694,7 @@ EndChar
 
 StartChar: mu
 Encoding: 181 181 112
-Width: 1260
+Width: 1155
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -2706,13 +2702,13 @@ Fore
 SplineSet
 0 -1004 m 17
  0 1435 l 0
- 0 1435 1 879 1 448 c 7
+ 0 1435 1 879 1 448 c 3
  1 187 211 -24 472 -24 c 1
  733 -24 943 187 943 448 c 9
  944 1435 l 1
  945 268 l 1
- 945 16 1055 -36 1115 -36 c 3
- 1182 -36 1260 -24 1260 -24 c 1025
+ 945 16 1055 -24 1115 -24 c 3
+ 1182 -24 1260 -12 1260 -12 c 1025
 EndSplineSet
 EndChar
 
