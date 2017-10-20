@@ -31,7 +31,6 @@ and in an inclined style.  Currently, I only have the normal width available.
 
 
 ## Creating the Output Fonts from the Template
-
 Gorton was used for engraving, so, naturally, it features strokes of a constant
 width for easier machining.  Different weights could be provided by simply
 using a different size cutter.  Naturally, therefore, instead of trying to trace
@@ -63,7 +62,7 @@ glyphs, especially since doing so would presumably make fabrication easier.  It
 also seems likely the creator was familiar with conic sections.  Consequently,
 most of the uppercase glyphs and many of the lowercase and numeral glyphs were
 measured, not traced; that is, I measured properties like line angle, curve
-radius, and width-to-height ratio to derive coordinates for control points i
+radius, and width-to-height ratio to derive coordinates for control points in
 the glyphs.
 
 Nevertheless, some glyphs, such as the six, did not match simple curves very
