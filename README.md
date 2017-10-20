@@ -6,6 +6,24 @@ engraving machines (among other machines).  They also made a few typefaces that
 were often used with the machines, the most common of which was simply called
 Gorton.  This is a digitalization of the Gorton font family.
 
+This typeface is generally compatible with Mil Spec 33558; see MIL-M-18012B:
+> 3.1.2 Control panels.
+> 
+> 3.1.2.1 Letter design. . . . The following commercial fonts having the
+> size ratios specified herein for the classes and types of control panels
+> coverered by this specification may be used. . . .
+> 
+> (a) Fonts for engraving:
+> 
+> (1) Gorton extended
+> 
+> (2) [Gorton] normal
+> 
+> (3) Gorton condensed
+
+I recommend using the medium or heavy weight if used in an aerospace application; heavy for small text 1/8th inch
+(9 pt) or smaller, medium otherwise.
+
 
 ## Variants in the Family
 The Gorton typeface was available in several fonts of varying sizes and widths,
