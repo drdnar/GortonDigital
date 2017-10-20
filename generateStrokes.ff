@@ -15,7 +15,7 @@ while (strokeIndex < SizeOf(strokeWidths))
 	SetOS2Value("Weight", weightNames[strokeIndex])
 #strokeWidth = 420
 	SelectWorthOutputting()
-	SelectFewer(" ")
+	SelectFewerSingletons(" ", 0uA0)
 	UnlinkReference()
 	ClearHints()
 	SetLBearing(strokeWidth/2, 1)
