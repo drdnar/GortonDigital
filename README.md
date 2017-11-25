@@ -21,8 +21,26 @@ This typeface is generally compatible with Mil Spec 33558; see MIL-M-18012B:
 > 
 > (3) Gorton condensed
 
-I recommend using the medium or heavy weight if used in an aerospace application; heavy for small text 1/8th inch
-(9 pt) or smaller, medium otherwise.
+I recommend using the medium or heavy weight if used in an aerospace
+application; heavy for small text 1/8th inch (9 pt) or smaller, medium
+otherwise.
+
+
+## Credits
+Many thanks to Richard Gorton of http://gorton-machine.org for providing photos
+of physical type, and especially for very-high-resolution photos of the
+lowercase and normal steel stamp faces.  Without all the work he put into his
+Website, there is no way I would have even considered working on this.
+
+
+## Licensing
+These typefaces are free to use for **non-commercial** purposes.
+
+**However,** if you want to use these typefaces for a commerical purpose, you
+will need a license.  It is not my intention to make any significant money from
+this, but, at Richard Gorton's suggestion, we will select a US-based educational
+non-profit for you to donate your licensing fee to.  Contact me at
+rsbartgis@gmail.com for details.
 
 
 ## Variants in the Family
