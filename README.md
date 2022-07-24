@@ -25,6 +25,8 @@ I recommend using the medium or heavy weight if used in an aerospace
 application; heavy for small text 1/8th inch (9 pt) or smaller, medium
 otherwise.
 
+[Routed Gothic](https://github.com/dse/routed-gothic) is a very similar font
+with more complete coverage.
 
 ## Credits
 Many thanks to Richard Gorton of http://gorton-machine.org for providing photos
